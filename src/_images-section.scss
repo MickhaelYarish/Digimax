@@ -1,0 +1,76 @@
+#images-section{
+ .container-fluid{
+   padding: 0px;
+   .row{
+     margin: 0px;
+     padding: 0px 5px;
+     .image-block{
+       padding: 7px 2px;
+       display: inline-block;
+       height: 325px;
+          width: 19.83%;
+       img{
+height: 100%;
+width: 100%;
+       }
+     }
+   }
+ }
+}
+@media (max-width: 575px) {
+  #images-section .container-fluid .row .image-block{
+    width: 49%;
+    height: 49%;
+
+  }
+  #images-section .container-fluid .row{
+    padding: 0px;
+    text-align: center;
+  }
+
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  #images-section .container-fluid .row .image-block{
+    width: 18.75%;
+    padding: 2px 0px;
+    height: 18.75%;
+  }
+  #images-section .container-fluid .row{
+    text-align: center;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #images-section .container-fluid .row .image-block{
+    width: 19.05%;
+     height: 19.05%;
+  }
+  #images-section .container-fluid .row{
+    text-align: center;
+  }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #images-section .container-fluid .row .image-block{
+    width: 19.2%;
+     height: 19.2%;
+  }
+  #images-section .container-fluid .row{
+    text-align: center;
+  }
+
+}
+@media (min-width: 1200px) and (max-width: 1835px) {
+  #images-section .container-fluid .row .image-block{
+  width: 19.4%;
+  height: 19.4%;
+  }
+  #images-section .container-fluid .row{
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+}

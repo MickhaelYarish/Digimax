@@ -1,0 +1,51 @@
+header {
+  .container-fluid {
+    min-height: 1155px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('images/header-background.png');
+    border-bottom: 1px solid #000;
+  }
+}
+@media (max-width: 575px) {
+  header {
+    .container-fluid {
+      min-height: 400px;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  header {
+    .container-fluid {
+      min-height: 450px;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  header {
+    .container-fluid {
+      min-height: 550px;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  header {
+    .container-fluid {
+      min-height: 650px;
+    }
+  }
+}
+@media (min-width: 1200px) and (max-width: 1468px) {
+  header {
+    .container-fluid {
+      min-height: 780px;
+    }
+  }
+}

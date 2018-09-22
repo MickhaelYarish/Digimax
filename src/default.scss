@@ -1,0 +1,23 @@
+body{
+  background: #fbf7ff;
+}
+a{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  &:hover,&:visited,&:focus,&:link{
+    text-decoration: none;
+  }
+}
+p,h1,h2,h3{
+  margin: 0px;
+  padding: 0px;
+}
+ul{
+  margin: 0px;
+  padding: 0;
+}
+button{
+  &:focus{
+    outline: none;
+  }
+}

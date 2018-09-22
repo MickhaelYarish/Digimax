@@ -1,0 +1,123 @@
+#history-section{
+.container-fluid{
+  min-height: 666px;
+.history-row{
+padding: 117px 390px 115px 155px;
+font-family: 'Open Sans', sans-serif;
+color:#5b7c93;
+.image-block{
+  text-align: right;
+  margin-top: -30px;
+}
+.history-block{
+  padding-left: 52px;
+  p{
+    line-height: 1.64;
+      font-weight: 400;
+      font-size: 16px;
+  }
+  h2{
+      margin: 42px 0px 25px 0px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+}}}}
+
+@media (max-width: 575px) {
+  #history-section{
+  .container-fluid{
+    min-height: 566px;
+  .history-row{
+  padding: 10px 20px 50px 20px;
+  .image-block{
+    text-align: center;
+    margin-top: -10px;
+    img{
+   width: 100%;
+    }
+  }
+  .history-block{
+    padding-left: 0px;
+    h2{
+      margin: 42px 0px 25px 0px;
+    }
+  }}}}
+
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  #history-section{
+  .container-fluid{
+    min-height: 566px;
+  .history-row{
+  padding: 10px 80px 50px 80px;
+  .image-block{
+    text-align: center;
+    margin-top: -10px;
+    img{
+   width: 100%;
+    }
+  }
+  .history-block{
+    padding-left: 0px;
+    h2{
+      margin: 42px 0px 25px 0px;
+    }
+  }}}}
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #history-section{
+  .container-fluid{
+    min-height: 566px;
+  .history-row{
+  padding: 10px 80px 50px 80px;
+  .image-block{
+    text-align: center;
+    margin-top: -10px;
+
+  }
+  .history-block{
+    padding-left: 0px;
+    h2{
+      margin: 42px 0px 25px 0px;
+    }
+  }}}}
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {//!!!!!!!!
+  #history-section{
+  .container-fluid{
+    min-height: 566px;
+  .history-row{
+  padding: 50px 30px 50px 10px;
+  .image-block{
+    margin-top: -10px;
+    img{
+      width: 100%;
+    }
+  }
+  .history-block{
+    padding-left: 0px;
+    h2{
+      margin: 42px 0px 25px 0px;
+    }
+  }}}}
+
+}
+@media (min-width: 1200px) and (max-width: 1468px) {
+  #history-section{
+  .container-fluid{
+    min-height: 566px;
+  .history-row{
+  padding: 60px 30px 50px 60px;
+  .image-block{
+    margin-top: -10px;
+  }
+  .history-block{
+    padding-left: 70px;
+    h2{
+      margin: 42px 0px 25px 0px;
+    }
+  }}}}
+
+}

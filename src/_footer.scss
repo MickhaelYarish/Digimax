@@ -1,0 +1,195 @@
+//footer-map.png
+
+footer {
+      letter-spacing: 0.01em;
+  position: relative;
+  color: #8fb2cb;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 125px;
+  background-image: url('images/footer-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .container-fluid {
+    .row {
+      .location-information {
+
+        padding: 60px;
+        padding-left: 113px;
+    padding-top: 45px;
+        p {
+          letter-spacing: 0.01em;
+          font-size: 38px;
+          font-weight: 500;
+          margin-bottom: 53px;
+        }
+        ul:nth-child(4){
+            margin-bottom: 73px;
+        }
+
+        ul {
+          list-style-type: none;
+          margin-bottom: 100px;
+          &+p{
+              margin-top: -8px;
+              letter-spacing: 0.01em;
+          }
+
+          li {
+        margin-bottom: 12px;
+            font-size: 18px;
+            font-weight: 400;
+          }
+        }
+      }
+      .tools {
+        padding: 0px 60px;
+        padding-left: 110px;
+        font-size: 32px;
+        font-weight: 300;
+        font-family: 'Rubik', sans-serif;
+        p{
+          margin-bottom: 80px;
+        }
+
+
+      }
+
+      .copyright {
+
+        padding: 0;
+        height: 955px;
+        background-image: url('images/footer-map.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        p {
+      text-transform: uppercase;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    bottom: 37px;
+    right: 0;
+    background-image: url(images/copyright-back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 12px;
+    font-weight: 700;
+    display: inline-block;
+    padding: 21px 37px;
+    padding-left: 53px;
+    text-align: center;
+    letter-spacing: 0.094em;
+
+        }
+      }
+    }
+  }
+}
+@media (max-width: 575px) {
+  footer{
+    padding-top: 60px;
+  }
+  footer .container-fluid .row .tools p {
+    margin-bottom: 60px;
+}
+  footer .container-fluid .row .location-information {
+    padding: 0px 30px 10px 30px;
+}
+footer .container-fluid .row .tools {
+  padding-left: 30px;
+  margin-bottom: 60px;
+  padding-right: 30px;
+}
+footer .container-fluid .row .copyright {
+height: 450px;
+}
+footer .container-fluid .row .tools img{
+ width:90%;
+}
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  footer{
+    padding-top: 80px;
+  }
+  footer .container-fluid .row .tools p {
+    margin-bottom: 60px;
+}
+  footer .container-fluid .row .location-information {
+    padding: 0px 60px 10px 60px;
+}
+footer .container-fluid .row .tools {
+  padding-left: 60px;
+  margin-bottom: 60px;
+  padding-right: 60px;
+}
+footer .container-fluid .row .copyright {
+height: 450px;
+}
+footer .container-fluid .row .tools img{
+ width:90%;
+}
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  footer .container-fluid .row .location-information {
+    padding-top: 0px;
+        padding-left: 40px;
+}
+footer .container-fluid .row .tools {
+ padding-left: 30px;
+ padding-right: 40px;
+}
+footer .container-fluid .row .copyright {
+height: 450px;
+}
+footer .container-fluid .row .tools img{
+ width:90%;
+}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  footer .container-fluid .row .location-information {
+    padding-top: 0px;
+}
+footer .container-fluid .row .tools {
+ padding-left: 30px;
+ padding-right: 30px;
+}
+footer .container-fluid .row .copyright {
+height: 450px;
+}
+
+
+}
+
+@media (min-width: 1200px){
+  footer{
+    height: 1080px;
+  }
+footer .col-lg-8 {
+    width: 64%;
+  margin-left: 2.66%;
+}
+}
+@media (min-width: 1200px) and (max-width: 1785px){
+  footer .container-fluid .row .location-information {
+    padding: 0px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+footer .container-fluid .row .tools {
+padding-left: 40px;
+margin-bottom: 60px;
+}
+footer .container-fluid .row .tools img{
+ width:100%;
+}
+
+footer .container-fluid .row .location-information ul {
+ margin-bottom: 73px;
+}
+footer .container-fluid .row .location-information p {
+     margin-bottom: 40px;
+}
+
+}

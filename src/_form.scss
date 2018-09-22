@@ -1,0 +1,59 @@
+.hide-visibility{
+  display: none;
+}
+.show-visibility{
+  display: block;
+}
+.form-container{
+width: 40%;
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+top: 30px;
+  button:nth-child(1){
+    position: absolute;
+  top: 0px;
+  right: 0px;
+    z-index: 20;
+  padding: 3px 9px;
+  background: none;
+  font-size: 27px;
+  border: none;
+  }
+
+}
+#subscribe-form{
+  padding: 40px 30px;
+  background: white;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  p{
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  input[type="email"] {
+    width: 100%;
+      text-align: center;
+      display: block;
+      outline: none;
+      border: none;
+      border-bottom: 1px solid grey;
+      padding: 7px 0px;
+}
+  button{
+    display: block;
+      background: #31abef;
+      outline: none;
+      border: none;
+      color: white;
+      padding: 10px 0px;
+      width: 100%;
+      margin-top: 26px;
+}
+}
+@media (max-width: 575px) {
+  .form-container{
+  width: 90%;
+}
+
+}

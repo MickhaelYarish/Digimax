@@ -1,0 +1,82 @@
+#service-section {
+  padding-top: 60px;
+  .container {
+    .row {
+      .service-block {
+        margin-bottom: 10%;
+        .service-icon {
+          display: inline-block;
+          width: 20%;
+          vertical-align: top;
+
+          img {
+            width: 94px;
+            height: 94px;
+          }
+        }
+
+        .service-description {
+          vertical-align: top;
+          display: inline-block;
+          width: 70%;
+          margin-left: 25px;
+
+          h2 {
+            margin-bottom: 18px;
+            font-weight: 500;
+            font-size: 16px;
+            font-family: 'Roboto', sans-serif;
+          }
+
+          p {
+            font-weight: 400;
+            font-size: 13px;
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.8;
+            word-spacing: 0.1em;
+          }
+        }
+      }
+    }
+  }
+}
+//425 225
+@media (max-width: 575px) {
+
+  #service-section .container .row .service-block .service-icon {
+width: 20%;
+  }
+  #service-section .container .row {
+      padding: 40px 0px 40px;
+  }
+  #service-section .container .row .service-block {
+      margin: 40px 0;
+  }
+  #service-section .container .row .service-block .service-icon img {
+    width: 22vw;
+    height: 22vw;
+}
+
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  #service-section .container .row .service-block {
+      margin: 40px 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #service-section .container .row .service-block {
+      margin: 40px 0;
+  }
+}
+@media(min-width: 992px){
+  #service-section{
+        padding-bottom: 2%;
+      padding-top: 12.225%;
+  }
+  #service-section .container .row .service-block {
+    &:nth-child(1) ,&:nth-child(3){
+      margin-left: 3.33%;
+    }
+  }
+
+}
